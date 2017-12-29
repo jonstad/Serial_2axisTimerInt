@@ -66,6 +66,7 @@ void loop() {
  
    while (Serial.available() > 0) {
           // get incoming byte:
+          int testfoo=0;
           inByte = Serial.read();
           //Reset everything
           if(inByte=='x'){
